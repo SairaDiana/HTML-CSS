@@ -28,18 +28,62 @@
 
     <blockquote>
       Cras ultrices urna et mollis faucibus. Mauris ornare congue sem, vel dapibus purus iaculis ullamcorper. Morbi eu rutrum orci. Suspendisse potenti. Etiam laoreet leo dolor, et vulputate tortor malesuada id. Sed consectetur fringilla tempus. Fusce scelerisque ultricies ex, nec maximus odio ultricies a. Integer ut libero elit. Suspendisse tempor libero ac metus eleifend porttitor. Suspendisse sodales sem in consectetur commodo. Vivamus rutrum et felis sed dapibus. Sed eget vulputate nulla, vitae bibendum diam. Donec sed ultricies leo, sit amet commodo magna. Vestibulum pharetra, eros eu faucibus elementum, tellus nunc egestas neque, in scelerisque velit risus vitae lectus. Pellentesque eget leo vitae neque pretium ultrices vitae ut sem. Vivamus volutpat est quis augue imperdiet, sit amet efficitur dolor consectetur.
-
       Duis aliquam suscipit lacinia. Quisque eleifend quis ante at pharetra. Donec pretium augue sed nibh tempus vestibulum. Nullam neque nibh, venenatis vel diam in, laoreet tempus neque. Nam at sapien non ex cursus fringilla. Sed luctus malesuada augue congue facilisis. Fusce luctus urna a neque auctor hendrerit. Cras vel eros vitae nisi rhoncus porttitor. Maecenas dictum metus et posuere venenatis. Donec vel turpis dolor. Etiam quis nisl id turpis varius faucibus sed at ligula. Curabitur lectus  neque, consequat vitae sagittis nec, aliquet id nisl.
     </blockquote>
 
     <ul>
       <li>Manzana</li>
-        <ul>
+        <ol>
           <li>Verde</li>
           <li>Roja</li>
-        </ul>
+        </ol>
       <li>Sandia</li>
       <li>Naranja</li>
     </ul>
 
-  </body>
+    <h3>Tabla</h3>
+
+    <table border="1">
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>País</t></th>
+      <tr>
+        <td>Victor</td>
+        <td>Robles</td>
+        <td>España</td>
+      </tr>
+      <tr>
+        <td>Saira</td>
+        <td>Rodriguez</td>
+        <td>México</td>
+      </tr>
+    </table>
+
+    <h3>Fromulario</h3>
+
+    <form>
+      <p>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Escribe tu nombre..."/>
+      </p>
+
+      <p>
+        <label for="description">Descripcion</label>
+        <textarea name="descripcion"></textarea>
+      </p>
+
+      <input type="radio" name="genero" value="hombre">Hombre<br/>
+      <input type="radio" name="genero" value="mujer">Mujer<br/>
+      <input type="radio" name="genero" value="nada">Nada<br/>
+
+      <select name="generodos">
+        <option value="hombre">Hombre</option>
+        <option value="mujer">Mujer</option>
+        <option value="nada">Nada</option>
+      </select>
+
+      <input type="submit" value="Enviar formulario">
+    </form>
+
+    </body>
