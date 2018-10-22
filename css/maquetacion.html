@@ -120,7 +120,6 @@
       margin: 20px auto;
       width: 1000px;
       height: 453px;
-      background: #888;
     }
 
     aside#izq {
@@ -131,6 +130,38 @@
       height: 453px;
       background: #333;
     }
+
+    article{
+    	position:absolute;
+    	left:200px;
+    	top:0;
+    	width:600px;
+    	height:453px;
+    	}
+
+    article h1 {
+    	font-family: 'Kaushan Script', cursive;
+    	font-size:40px;
+    	margin:20px;
+    	}
+
+    article p img{
+    	float:left;
+    	margin-right:20px;
+    	}
+
+    article p {
+    	margin:5px 20px;
+    	font-size:14px;
+    	text-align:justify;
+    }
+
+    article h3 {
+    	margin:5px 20px;
+    	font-size:14px;
+    	text-align:justify;
+
+    	}
 
     aside#der {
       position: absolute;
@@ -146,7 +177,10 @@
       margin: 20px auto;
       width: 1000px;
       height: 70px;
-      background: #888;
+      background: rgba(100, 0, 255, 1);
+      text-align: center;
+      line-height: 70px;
+      color: white;
     }
 
     </style>
@@ -182,24 +216,46 @@
       <ul>
 
         <li>
-          <img src="img/img01.jpg" width="100">
+          <img src="../img/img01.jpg" width="100">
         	<h1>Lorem Ipsum</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </li>
 
-        <li></li>
-        <li></li>
+        <li>
+          <img src="../img/img02.jpg" width="100">
+        	<h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+
+        <li>
+          <img src="../img/img03.jpg" width="100">
+          <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+
       </ul>
 
     </div>
 
     <section>
       <aside id="izq"></aside>
-      <article class=""></article>
+      <article>
+        <h1>Lorem Ipsum</h1>
+      	<p><img src="../img/foto.jpg" width="250">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet libero in leo suscipit consequat. Vivamus et nunc neque. Proin vel eros nec nisi luctus laoreet sed vitae nulla. Sed non nulla interdum, consequat turpis at, euismod leo. Fusce fringilla convallis viverra. Integer vel lacus id tortor viverra luctus dapibus et nulla. Integer scelerisque neque eget tortor bibendum, non ultricies tellus vehicula. Morbi imperdiet gravida nisl, non congue ante fringilla in. Mauris laoreet accumsan ultrices.</p>
+          <br>
+          <p>Sed feugiat, magna non sagittis porttitor, massa risus iaculis nisi, id semper ante nisi sed justo. In placerat ipsum in metus consectetur suscipit. Donec ante nibh, pulvinar eu lectus vel, aliquam cursus enim. Proin nibh eros, tincidunt et est quis, elementum ultrices eros. Mauris accumsan ac metus in viverra.Integer fringilla urna eu fringilla blandit. Suspendisse et tellus venenatis, aliquam sapien at, pharetra orci. Etiam elit arcu, aliquam eu turpis bibendum, facilisis dapibus augue. </p>
+
+        <h3>Saira Diana Carranza Rodríguez</h3>
+
+      </article>
+
       <aside id="der"></aside>
+
     </section>
 
-    <footer></footer>
+    <footer>
+      &copy; Todos los derechos reservados.
+    </footer>
 
   </body>
 </html>
